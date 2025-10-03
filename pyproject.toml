@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyclassicsorts"
+version = "0.1.0"
+description = "Small Python package with classic sorting algorithms (merge, quick, selection, bubble) organized with good modularization."
+authors = [
+  { name = "RafaelLopesPinheiro" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
